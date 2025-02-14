@@ -30,9 +30,6 @@ with col1:
     "llama-guard-3-8b",
     "mixtral-8x7b-32768",
     "gemma2-9b-it",
-    "whisper-large-v3",
-    "whisper-large-v3-turbo",
-    "distil-whisper-large-v3-en",
     "llama-3.2-11b-vision-preview",
     "llama-3.2-90b-vision-preview"
         ], index=0
