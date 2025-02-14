@@ -19,10 +19,22 @@ col1, col2 = st.columns([1, 4])  # Model selection on the left, chat on the righ
 with col1:
     model_name = st.selectbox(
         "Select a model", [
-            "DeepSeek-R1-Distill-Llama-70B",
-            "Llama-3.3-70B-Versatile",
-            "Llama-3.2-90B-Vision-Preview",
-            "Gemma2-9B-IT"
+           "deepseek-r1-distill-llama-70b","deepseek-r1-distill-qwen-32b",
+    "llama-3.3-70b-versatile",
+    "llama-3.3-70b-specdec",
+    "llama-3.2-1b-preview",
+    "llama-3.2-3b-preview",
+    "llama-3.1-8b-instant",
+    "llama3-70b-8192",
+    "llama3-8b-8192",
+    "llama-guard-3-8b",
+    "mixtral-8x7b-32768",
+    "gemma2-9b-it",
+    "whisper-large-v3",
+    "whisper-large-v3-turbo",
+    "distil-whisper-large-v3-en",
+    "llama-3.2-11b-vision-preview",
+    "llama-3.2-90b-vision-preview"
         ], index=0
     )
 
