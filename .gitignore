@@ -10,5 +10,4 @@ node_modules/
 # Ignore macOS system files
 .DS_Store
 
-.ipynb
-
+*.ipynb
